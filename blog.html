@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!--header with nested h1 and nav-bar-->
+
+    <header>
+      <h1 id="header-logo">
+        <a href="home.html" target="_blank" class="logo">FANTASTICAL SOCKS</a>
+      </h1>
+      <nav>
+        <ul class="nav-bar">
+          <li>
+            <a href="home.html" target="_blank" class="link-border">Home</a>
+          </li>
+          <li class="active-page">
+            <a href="blog.html" target="_blank" class="link-border">Blog</a>
+          </li>
+          <li>
+            <a href="about.html" target="_blank" class="link-border">About</a>
+          </li>
+          <li>
+            <a href="contact.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--page banner-->
+
+    <div>
+      <img
+        src="img/blognavbar.jpg"
+        alt="happy socks and car"
+        class="banner-img"
+      />
+    </div>
+
+    <!--main page content consisting of article with blogpost, figure and aside-->
+
+    <main>
+      <article class="blog-post">
+        <h2>Blog</h2>
+        <h3>Stay tuned for some BIG news!</h3>
+
+        <!--figure with nested img directly linked to text in class="blog-text"-->
+
+        <figure class="blog-figure">
+          <img
+            class="blog-img"
+            src="img/superherosocks.JPG"
+            alt="superhero socks"
+          />
+        </figure>
+        <p class="blog-text">
+          You won't believe what we've managed to achieve in these last couple
+          of months! Fantastical Socks will save the world one sock at a time
+          starting right here in Happyville and later moving on to Europe, Asia
+          AND EVEN THE MOON...
+          <a href="#" class="read-more-link">Read more</a>
+        </p>
+
+        <br />
+        <p class="blog-underline">
+          <a href="#" class="comments">4 Comments</a> - Socky Sockerson -
+          2023-09-04
+        </p>
+      </article>
+
+      <!--aside with links to categories and tags on webpage in unordered lists-->
+
+      <aside>
+        <h3>Categories</h3>
+        <ul class="aside-list">
+          <li class="categories"><a href="#">edible socks</a></li>
+          <li class="categories"><a href="#">happy socks</a></li>
+          <li class="categories"><a href="#">sad socks</a></li>
+          <li class="categories"><a href="#">crazy socks</a></li>
+        </ul>
+        <h3>Tags</h3>
+        <ul class="aside-list">
+          <li class="tags"><a href="#">news</a></li>
+          <li class="tags"><a href="#">info</a></li>
+          <li class="tags"><a href="#">sock-club</a></li>
+        </ul>
+      </aside>
+    </main>
+
+    <!--footer-->
+
+    <footer>
+      <p>&copy;Fantastical Socks Corp., 100 Fantasy Street, 12345 Happyville</p>
+    </footer>
+  </body>
+</html>

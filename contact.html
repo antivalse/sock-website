@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!--header-->
+
+    <header>
+      <h1 id="header-logo">
+        <a href="home.html" target="_blank" class="logo">FANTASTICAL SOCKS</a>
+      </h1>
+      <nav>
+        <ul class="nav-bar">
+          <li>
+            <a href="home.html" target="_blank" class="link-border">Home</a>
+          </li>
+          <li>
+            <a href="blog.html" target="_blank" class="link-border">Blog</a>
+          </li>
+          <li>
+            <a href="about.html" target="_blank" class="link-border">About</a>
+          </li>
+          <li class="active-page">
+            <a href="contact.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--page banner-->
+
+    <div>
+      <img
+        src="img/contactnavbar.png"
+        alt="a few happy socks"
+        class="banner-img"
+      />
+    </div>
+
+    <!--main page content with nested fieldset used to group the related elements in form for user to fill in name and message -->
+
+    <main>
+      <fieldset>
+        <h2>Contact Us</h2>
+        <form name="myForm">
+          <label for="yourname" class="contact-header">Your Name</label>
+          <input
+            type="text"
+            id="yourname"
+            name="yourname"
+            placeholder="Your name"
+          />
+          <h3>Got thoughts about socks? Please share!</h3>
+          <label for="message" class="contact-header">Message</label>
+
+          <!--multi-line text input control-->
+
+          <textarea id="message" name="message"></textarea>
+
+          <!--input submit button. when button is clicked the input fields clear-->
+
+          <input type="submit" value="Sock it to us!" id="submit" />
+        </form>
+      </fieldset>
+    </main>
+
+    <!--footer-->
+
+    <footer>
+      <p>&copy;Fantastical Socks Corp., 100 Fantasy Street, 12345 Happyville</p>
+    </footer>
+  </body>
+</html>
